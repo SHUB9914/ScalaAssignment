@@ -8,9 +8,8 @@ class Test
   {
     println(s" $index = $i")
     index=index+1
-    
   }
-
+ }
 }
 
 object First
@@ -22,4 +21,3 @@ object First
     obj.show()      // calling show method of Test class 
  }
   }
-}
