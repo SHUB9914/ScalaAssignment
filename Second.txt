@@ -1,0 +1,25 @@
+class Test
+{
+  
+def show(): Unit =
+{
+  var lst =List(10,50,30,40) //  creating List
+    var large =0; // for storing Largest Value
+    for(i<-lst)
+    {
+      if(large<i) large=i
+   }
+    println(large)
+    
+    }
+}
+
+
+object Second
+{
+  def main(args:Array[String])
+  {
+    var obj = new Test  //creating object of Test Class
+    obj.show();        // calling show method
+  }
+}

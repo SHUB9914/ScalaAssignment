@@ -1,0 +1,34 @@
+class Shubham
+{
+  var sum =0; // instance variable that hold final output
+ def show( x : Int) :Int =
+ {
+  var y = x
+  if(y!=0)
+  {
+    var rem = y%10;
+    sum = sum+ rem;
+    y = y/10;
+    show(y)
+  }
+  sum // returning sum
+  }
+}
+
+object Fourth
+{
+  def main(args:Array[String])
+  {
+    
+    var obj = new Shubham();
+    var temp =1; // use 
+    for(i<-1 to 25)
+    {
+       temp = temp *i;
+    }
+    println(temp)
+      
+    println(obj.show(temp))// print final output
+      }
+
+}

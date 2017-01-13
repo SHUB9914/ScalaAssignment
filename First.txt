@@ -1,0 +1,25 @@
+class Test
+{
+  def show() : Unit =
+  {
+    var list = List(10,20,30,40) //  Create List
+  var index =0          // for printing list index
+  for(i<-list)
+  {
+    println(s" $index = $i")
+    index=index+1
+    
+  }
+
+}
+
+object First
+{
+  def main(args:Array[String])
+  {
+  
+    var obj = new Test // creating object of Test Class
+    obj.show()      // calling show method of Test class 
+ }
+  }
+}
